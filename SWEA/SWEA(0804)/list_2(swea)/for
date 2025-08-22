@@ -1,0 +1,21 @@
+#for문 이론1
+#n번 반복하는 반복문
+
+# for i in range(n):
+#     print(i, end = '') # 0, 1, 2, 3, ... n-1 
+
+# n번 반복하는 반복문
+
+
+#for문 이론2
+
+# start, end를 입력받고 (정수 두 개를 입력)
+# start부터 end까지 출력하기 (순회, 역순회)
+
+# # 1. start < end : 증가하는 경우 - 순회
+# for i in range(start, end + 1):
+
+# # 2. start > end : 감소하는 경우 - 역순회
+# for i in range(start, end - 1, -1):
+
+# # --> 핵심은 수직선 상으로 생각했을 때 end를 항상 포함하지 않는다
