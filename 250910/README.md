@@ -22,7 +22,7 @@
 - 외부 정렬(External Sort)의 기본, 멀티코어 병렬 정렬 등에 활용.
 
 <details>
-<summary>파이썬 예제</summary>
+<summary>병합 정렬 코드</summary>
 
 ```python
 def merge_sort(li):
@@ -43,7 +43,7 @@ def merge_sort(li):
 - 대용량 데이터에 강력한 성능.
 
 <details>
-<summary>대표 코드</summary>
+<summary>퀵 정렬 코드</summary>
 
 ```python
 def quick_sort(left, right):
